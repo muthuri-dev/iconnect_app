@@ -1,0 +1,76 @@
+Map? blogs;
+  List? blogsData;
+
+  Future fetchData() async {
+    var response = await Dio().get('http://172.16.54.84:8000/blogs');
+    if (response.statusCode != 200) {
+      return CircularProgressIndicator();
+    } else {
+      blogs = json.decode(response.data);
+      setState(() {
+        blogsData = blogs!['blogs'];
+      });
+      debugPrint(blogsData.toString());
+    }
+  }
+
+  @override
+  void initState() {
+    super.initState();
+    fetchData();
+  }
+
+
+ListView.builder(
+        itemCount: blogsData?.length ?? 0,
+        itemBuilder: (context, index) {
+          return Card(
+            child: Row(
+              children: [
+                const CircleAvatar(
+                  backgroundColor: Colors.purple,
+                ),
+                Text('${blogsData![index]['title']}'),
+              ],
+            ),
+          );
+        },
+      ),
+
+
+
+       ListView.builder(
+        itemCount: 5,
+        itemBuilder: ((context, index) {
+          return const Card(
+            child: ListTile(
+              title: Text('kennedy'),
+              subtitle: Text('muthuri'),
+            ),
+          );
+        }),
+      ),
+
+
+
+
+       Center(
+        child: listResponse == null
+            ? Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: const [
+                  CircularProgressIndicator(
+                    color: Colors.white,
+                  ),
+                  SizedBox(height: 30),
+                  Text(
+                    'Data is Loading ...',
+                    style: TextStyle(
+                        color: Colors.white,
+                        fontFamily: 'monospace',
+                        fontSize: 20),
+                  ),
+                ],
+              )
+            : Text(listResponse![0]['first_name'].toString()),
+      ),
