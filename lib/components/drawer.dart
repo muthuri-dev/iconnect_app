@@ -24,14 +24,14 @@ class _NavigationDrawerState extends State<NavigationDrawer> {
         child: Column(
           children: [
             const Text(
-              'Kennedy muthuri',
+              'Interact and ',
               style: TextStyle(color: Colors.white, fontFamily: 'monospace'),
             ),
             const SizedBox(
               height: 10.0,
             ),
             const Text(
-              'Muthurikennedy@Gmail.com',
+              'Connect with other peers',
               style: TextStyle(color: Colors.white, fontFamily: 'monospace'),
             ),
             const Divider(),
@@ -46,8 +46,12 @@ class _NavigationDrawerState extends State<NavigationDrawer> {
                       TextStyle(color: Colors.white, fontFamily: 'monospace'),
                 ),
                 onTap: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => const Home()));
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => const Home(
+                                value: '',
+                              )));
                 }),
             ListTile(
               leading: const Icon(

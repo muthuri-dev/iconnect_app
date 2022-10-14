@@ -14,10 +14,10 @@ class _AnimeState extends State<Anime> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.deepPurple,
+      backgroundColor: Colors.white,
       appBar: AppBar(
         title: const Text(
-          'Get Anime Inspirations',
+          'Get Ideas from Peers',
           style: TextStyle(fontFamily: 'monospace'),
         ),
         elevation: 0,
@@ -49,6 +49,12 @@ class _AnimeState extends State<Anime> {
             bottomLeft: Radius.circular(70),
             bottomRight: Radius.circular(200),
           ),
+        ),
+      ),
+      body: const Center(
+        child: Text(
+          'Page Not Complete working on it',
+          style: TextStyle(fontFamily: 'monospace'),
         ),
       ),
       floatingActionButton: FloatingActionButton(

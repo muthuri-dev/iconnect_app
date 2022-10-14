@@ -16,7 +16,7 @@ class _ProjectsState extends State<Projects> {
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          'View other Peers Ideas',
+          'View other Peers Projects',
           style: TextStyle(fontFamily: 'monospace'),
         ),
         elevation: 0,
@@ -47,6 +47,12 @@ class _ProjectsState extends State<Projects> {
                 bottomLeft: Radius.circular(70),
                 bottomRight: Radius.circular(200))),
       ),
+      body: const Center(
+        child: Text(
+          'Page Not Complete working on it',
+          style: TextStyle(fontFamily: 'monospace'),
+        ),
+      ),
       floatingActionButton: FloatingActionButton(
         backgroundColor: Colors.purple,
         onPressed: () {
@@ -55,7 +61,7 @@ class _ProjectsState extends State<Projects> {
               duration: const Duration(seconds: 1),
               curve: Curves.fastOutSlowIn);
         },
-        child:const  Icon(Icons.arrow_upward_outlined),
+        child: const Icon(Icons.arrow_upward_outlined),
       ),
       bottomNavigationBar: const ClipRRect(
         borderRadius: BorderRadius.only(

@@ -61,7 +61,12 @@ class _MentorsState extends State<Mentors> {
             ),
           ];
         },
-        body: const Text('kennedy'),
+        body: const Center(
+          child: Text(
+            'Page Not Complete working on it',
+            style: TextStyle(fontFamily: 'monospace'),
+          ),
+        ),
       ),
       floatingActionButton: FloatingActionButton(
         backgroundColor: Colors.purple,

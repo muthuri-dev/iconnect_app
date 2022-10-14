@@ -10,16 +10,10 @@ class SecondScreen extends StatefulWidget {
 }
 
 class _SecondScreenState extends State<SecondScreen> {
-  final _email = TextEditingController();
-  final _name = TextEditingController();
+  final nameController = TextEditingController();
 
-  @override
-  void dispose() {
-    _email.dispose();
-    _name.dispose();
-    super.dispose();
-  }
-
+  String name = '';
+  String error = '';
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -41,11 +35,12 @@ class _SecondScreenState extends State<SecondScreen> {
               style: TextStyle(
                   color: Colors.white, fontSize: 25.0, fontFamily: 'monospace'),
             ),
-            const Padding(
-              padding: EdgeInsets.all(15.0),
+            Padding(
+              padding: const EdgeInsets.all(15.0),
               child: TextField(
-                style: TextStyle(color: Colors.white),
-                decoration: InputDecoration(
+                controller: nameController,
+                style: const TextStyle(color: Colors.white),
+                decoration: const InputDecoration(
                   labelText: 'Username',
                   enabledBorder: OutlineInputBorder(
                     borderSide: BorderSide(color: Colors.white),
@@ -58,14 +53,11 @@ class _SecondScreenState extends State<SecondScreen> {
                 ),
               ),
             ),
-            const Padding(
-              padding: EdgeInsets.all(15.0),
-              child: TextField(
-                decoration: InputDecoration(
-                  border: OutlineInputBorder(),
-                  labelText: 'Email Address',
-                  hintText: 'Email',
-                ),
+            Center(
+              child: Text(
+                error,
+                style:
+                    const TextStyle(color: Colors.red, fontFamily: 'monospace'),
               ),
             ),
             const SizedBox(
@@ -73,10 +65,20 @@ class _SecondScreenState extends State<SecondScreen> {
             ),
             ElevatedButton(
               onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => const Home()),
-                );
+                setState(() {
+                  name = nameController.text;
+                  if (name == '') {
+                    setState(() {
+                      error = 'Please Enter Username';
+                    });
+                  } else {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => Home(value: name)),
+                    );
+                  }
+                });
               },
               style: ButtonStyle(
                 backgroundColor: MaterialStateProperty.all(Colors.purple),

@@ -47,6 +47,12 @@ class _PeersState extends State<Peers> {
                 bottomLeft: Radius.circular(70),
                 bottomRight: Radius.circular(200))),
       ),
+      body: const Center(
+        child: Text(
+          'Page Not Complete working on it',
+          style: TextStyle(fontFamily: 'monospace'),
+        ),
+      ),
       floatingActionButton: FloatingActionButton(
         backgroundColor: Colors.purple,
         onPressed: () {

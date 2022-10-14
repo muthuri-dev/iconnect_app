@@ -50,6 +50,12 @@ class _GroupsState extends State<Groups> {
           ),
         ),
       ),
+      body: const Center(
+        child: Text(
+          'Page Not Complete working on it',
+          style: TextStyle(fontFamily: 'monospace'),
+        ),
+      ),
       floatingActionButton: FloatingActionButton(
         backgroundColor: Colors.purple,
         onPressed: () {

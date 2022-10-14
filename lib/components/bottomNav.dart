@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:iconnect_app/views/home.dart';
+import 'package:iconnect_app/views/pages/blogs.dart';
 import 'package:iconnect_app/views/pages/peers.dart';
 import 'package:iconnect_app/views/pages/projects.dart';
 
@@ -18,11 +19,15 @@ class _BottomNavState extends State<BottomNav> {
       if (_currentIndex == 0) {
         debugPrint('Home');
         Navigator.push(
-            context, MaterialPageRoute(builder: (context) => const Home()));
+            context,
+            MaterialPageRoute(
+                builder: (context) => const Home(
+                      value: '',
+                    )));
       } else if (_currentIndex == 1) {
-        debugPrint('teams');
+        debugPrint('blog');
         Navigator.push(
-            context, MaterialPageRoute(builder: (context) => const Peers()));
+            context, MaterialPageRoute(builder: (context) => const Blogs()));
       } else if (_currentIndex == 2) {
         debugPrint('projects');
         Navigator.push(
@@ -51,8 +56,8 @@ class _BottomNavState extends State<BottomNav> {
             label: 'Home',
             backgroundColor: Colors.deepPurple),
         BottomNavigationBarItem(
-            icon: Icon(Icons.group),
-            label: 'Groups',
+            icon: Icon(Icons.note_add_outlined),
+            label: 'Blog',
             backgroundColor: Colors.deepPurple),
         BottomNavigationBarItem(
             icon: Icon(Icons.computer_outlined),
