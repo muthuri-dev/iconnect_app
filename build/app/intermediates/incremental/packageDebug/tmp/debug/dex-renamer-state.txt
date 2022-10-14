@@ -1,4 +1,4 @@
-#Thu Oct 13 13:52:24 EAT 2022
-base.0=/home/kennedy/Programmes/Projects/Iconnect/iconnect-app/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+#Fri Oct 14 14:40:32 EAT 2022
+base.0=/home/kennedy/Programmes/Projects/Iconnect/iconnect_app/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

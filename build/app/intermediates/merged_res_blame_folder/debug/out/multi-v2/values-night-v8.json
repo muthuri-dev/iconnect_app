@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/kennedy/Programmes/Projects/Iconnect/iconnect-app/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
+            "outputFile": "/home/kennedy/Programmes/Projects/Iconnect/iconnect_app/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/home/kennedy/Programmes/Projects/Iconnect/iconnect-app/android/app/src/main/res/values-night/styles.xml",
+                    "source": "/home/kennedy/Programmes/Projects/Iconnect/iconnect_app/android/app/src/main/res/values-night/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

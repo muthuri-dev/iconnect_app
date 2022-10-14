@@ -1,8 +1,8 @@
 -- Merging decision tree log ---
 application
-INJECTED from /home/kennedy/Programmes/Projects/Iconnect/iconnect-app/android/app/src/main/AndroidManifest.xml:4:4-34:19
-MERGED from [:url_launcher_android] /home/kennedy/Programmes/Projects/Iconnect/iconnect-app/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-14:19
-MERGED from [:url_launcher_android] /home/kennedy/Programmes/Projects/Iconnect/iconnect-app/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-14:19
+INJECTED from /home/kennedy/Programmes/Projects/Iconnect/iconnect_app/android/app/src/main/AndroidManifest.xml:4:4-34:19
+MERGED from [:url_launcher_android] /home/kennedy/Programmes/Projects/Iconnect/iconnect_app/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-14:19
+MERGED from [:url_launcher_android] /home/kennedy/Programmes/Projects/Iconnect/iconnect_app/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-14:19
 MERGED from [androidx.window:window:1.0.0-beta04] /home/kennedy/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
 MERGED from [androidx.window:window:1.0.0-beta04] /home/kennedy/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
 MERGED from [androidx.core:core:1.6.0] /home/kennedy/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
@@ -12,15 +12,15 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/kenne
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.6.0] /home/kennedy/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
 	android:name
-		INJECTED from /home/kennedy/Programmes/Projects/Iconnect/iconnect-app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/kennedy/Programmes/Projects/Iconnect/iconnect_app/android/app/src/main/AndroidManifest.xml
 manifest
-ADDED from /home/kennedy/Programmes/Projects/Iconnect/iconnect-app/android/app/src/main/AndroidManifest.xml:1:1-35:12
-INJECTED from /home/kennedy/Programmes/Projects/Iconnect/iconnect-app/android/app/src/main/AndroidManifest.xml:1:1-35:12
-INJECTED from /home/kennedy/Programmes/Projects/Iconnect/iconnect-app/android/app/src/main/AndroidManifest.xml:1:1-35:12
-INJECTED from /home/kennedy/Programmes/Projects/Iconnect/iconnect-app/android/app/src/main/AndroidManifest.xml:1:1-35:12
-MERGED from /home/kennedy/Programmes/Projects/Iconnect/iconnect-app/android/app/src/main/AndroidManifest.xml:1:1-35:12
-MERGED from [:url_launcher_android] /home/kennedy/Programmes/Projects/Iconnect/iconnect-app/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-16:12
-MERGED from [:flutter_native_splash] /home/kennedy/Programmes/Projects/Iconnect/iconnect-app/build/flutter_native_splash/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+ADDED from /home/kennedy/Programmes/Projects/Iconnect/iconnect_app/android/app/src/main/AndroidManifest.xml:1:1-35:12
+INJECTED from /home/kennedy/Programmes/Projects/Iconnect/iconnect_app/android/app/src/main/AndroidManifest.xml:1:1-35:12
+INJECTED from /home/kennedy/Programmes/Projects/Iconnect/iconnect_app/android/app/src/main/AndroidManifest.xml:1:1-35:12
+INJECTED from /home/kennedy/Programmes/Projects/Iconnect/iconnect_app/android/app/src/main/AndroidManifest.xml:1:1-35:12
+MERGED from /home/kennedy/Programmes/Projects/Iconnect/iconnect_app/android/app/src/main/AndroidManifest.xml:1:1-35:12
+MERGED from [:url_launcher_android] /home/kennedy/Programmes/Projects/Iconnect/iconnect_app/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-16:12
+MERGED from [:flutter_native_splash] /home/kennedy/Programmes/Projects/Iconnect/iconnect_app/build/flutter_native_splash/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.window:window-java:1.0.0-beta04] /home/kennedy/.gradle/caches/transforms-3/246793f755122fe14a5802655438cb75/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
 MERGED from [androidx.window:window:1.0.0-beta04] /home/kennedy/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.fragment:fragment:1.1.0] /home/kennedy/.gradle/caches/transforms-3/0e0e1a382b52c0572988a1c50e96d2f7/transformed/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
@@ -38,37 +38,37 @@ MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/kennedy/.gradle/caches
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/kennedy/.gradle/caches/transforms-3/c6290d38a27dcf8d064fa9cefcb89071/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/kennedy/.gradle/caches/transforms-3/ed9734c73cdec898947618088fbe87b0/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/kennedy/.gradle/caches/transforms-3/58e3540d7f5a5bac6af9a8f8fab44363/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /home/kennedy/Programmes/Projects/Iconnect/iconnect-app/android/app/src/debug/AndroidManifest.xml:1:1-8:12
-INJECTED from /home/kennedy/Programmes/Projects/Iconnect/iconnect-app/android/app/src/debug/AndroidManifest.xml:1:1-8:12
-INJECTED from /home/kennedy/Programmes/Projects/Iconnect/iconnect-app/android/app/src/debug/AndroidManifest.xml:1:1-8:12
+INJECTED from /home/kennedy/Programmes/Projects/Iconnect/iconnect_app/android/app/src/debug/AndroidManifest.xml:1:1-8:12
+INJECTED from /home/kennedy/Programmes/Projects/Iconnect/iconnect_app/android/app/src/debug/AndroidManifest.xml:1:1-8:12
+INJECTED from /home/kennedy/Programmes/Projects/Iconnect/iconnect_app/android/app/src/debug/AndroidManifest.xml:1:1-8:12
 	package
-		ADDED from /home/kennedy/Programmes/Projects/Iconnect/iconnect-app/android/app/src/main/AndroidManifest.xml:2:5-39
-		INJECTED from /home/kennedy/Programmes/Projects/Iconnect/iconnect-app/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/kennedy/Programmes/Projects/Iconnect/iconnect-app/android/app/src/debug/AndroidManifest.xml
+		ADDED from /home/kennedy/Programmes/Projects/Iconnect/iconnect_app/android/app/src/main/AndroidManifest.xml:2:5-39
+		INJECTED from /home/kennedy/Programmes/Projects/Iconnect/iconnect_app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/kennedy/Programmes/Projects/Iconnect/iconnect_app/android/app/src/debug/AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/kennedy/Programmes/Projects/Iconnect/iconnect-app/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/kennedy/Programmes/Projects/Iconnect/iconnect-app/android/app/src/main/AndroidManifest.xml:1:1-35:12
-		INJECTED from /home/kennedy/Programmes/Projects/Iconnect/iconnect-app/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /home/kennedy/Programmes/Projects/Iconnect/iconnect_app/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/kennedy/Programmes/Projects/Iconnect/iconnect_app/android/app/src/main/AndroidManifest.xml:1:1-35:12
+		INJECTED from /home/kennedy/Programmes/Projects/Iconnect/iconnect_app/android/app/src/debug/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /home/kennedy/Programmes/Projects/Iconnect/iconnect-app/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/kennedy/Programmes/Projects/Iconnect/iconnect-app/android/app/src/main/AndroidManifest.xml:1:1-35:12
-		INJECTED from /home/kennedy/Programmes/Projects/Iconnect/iconnect-app/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /home/kennedy/Programmes/Projects/Iconnect/iconnect_app/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/kennedy/Programmes/Projects/Iconnect/iconnect_app/android/app/src/main/AndroidManifest.xml:1:1-35:12
+		INJECTED from /home/kennedy/Programmes/Projects/Iconnect/iconnect_app/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/kennedy/Programmes/Projects/Iconnect/iconnect-app/android/app/src/main/AndroidManifest.xml:1:11-69
+		ADDED from /home/kennedy/Programmes/Projects/Iconnect/iconnect_app/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /home/kennedy/Programmes/Projects/Iconnect/iconnect-app/android/app/src/main/AndroidManifest.xml:3:5-67
-MERGED from /home/kennedy/Programmes/Projects/Iconnect/iconnect-app/android/app/src/main/AndroidManifest.xml:3:5-67
-MERGED from /home/kennedy/Programmes/Projects/Iconnect/iconnect-app/android/app/src/main/AndroidManifest.xml:3:5-67
+ADDED from /home/kennedy/Programmes/Projects/Iconnect/iconnect_app/android/app/src/main/AndroidManifest.xml:3:5-67
+MERGED from /home/kennedy/Programmes/Projects/Iconnect/iconnect_app/android/app/src/main/AndroidManifest.xml:3:5-67
+MERGED from /home/kennedy/Programmes/Projects/Iconnect/iconnect_app/android/app/src/main/AndroidManifest.xml:3:5-67
 	android:name
-		ADDED from /home/kennedy/Programmes/Projects/Iconnect/iconnect-app/android/app/src/main/AndroidManifest.xml:3:22-64
+		ADDED from /home/kennedy/Programmes/Projects/Iconnect/iconnect_app/android/app/src/main/AndroidManifest.xml:3:22-64
 uses-sdk
-INJECTED from /home/kennedy/Programmes/Projects/Iconnect/iconnect-app/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/kennedy/Programmes/Projects/Iconnect/iconnect-app/android/app/src/main/AndroidManifest.xml
-INJECTED from /home/kennedy/Programmes/Projects/Iconnect/iconnect-app/android/app/src/main/AndroidManifest.xml
-MERGED from [:url_launcher_android] /home/kennedy/Programmes/Projects/Iconnect/iconnect-app/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:url_launcher_android] /home/kennedy/Programmes/Projects/Iconnect/iconnect-app/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:flutter_native_splash] /home/kennedy/Programmes/Projects/Iconnect/iconnect-app/build/flutter_native_splash/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:flutter_native_splash] /home/kennedy/Programmes/Projects/Iconnect/iconnect-app/build/flutter_native_splash/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+INJECTED from /home/kennedy/Programmes/Projects/Iconnect/iconnect_app/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/kennedy/Programmes/Projects/Iconnect/iconnect_app/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/kennedy/Programmes/Projects/Iconnect/iconnect_app/android/app/src/main/AndroidManifest.xml
+MERGED from [:url_launcher_android] /home/kennedy/Programmes/Projects/Iconnect/iconnect_app/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:url_launcher_android] /home/kennedy/Programmes/Projects/Iconnect/iconnect_app/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_native_splash] /home/kennedy/Programmes/Projects/Iconnect/iconnect_app/build/flutter_native_splash/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_native_splash] /home/kennedy/Programmes/Projects/Iconnect/iconnect_app/build/flutter_native_splash/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.window:window-java:1.0.0-beta04] /home/kennedy/.gradle/caches/transforms-3/246793f755122fe14a5802655438cb75/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window-java:1.0.0-beta04] /home/kennedy/.gradle/caches/transforms-3/246793f755122fe14a5802655438cb75/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window:1.0.0-beta04] /home/kennedy/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
@@ -103,22 +103,22 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/kennedy/.gradle
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/kennedy/.gradle/caches/transforms-3/ed9734c73cdec898947618088fbe87b0/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/kennedy/.gradle/caches/transforms-3/58e3540d7f5a5bac6af9a8f8fab44363/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/kennedy/.gradle/caches/transforms-3/58e3540d7f5a5bac6af9a8f8fab44363/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
-INJECTED from /home/kennedy/Programmes/Projects/Iconnect/iconnect-app/android/app/src/debug/AndroidManifest.xml
-INJECTED from /home/kennedy/Programmes/Projects/Iconnect/iconnect-app/android/app/src/debug/AndroidManifest.xml
+INJECTED from /home/kennedy/Programmes/Projects/Iconnect/iconnect_app/android/app/src/debug/AndroidManifest.xml
+INJECTED from /home/kennedy/Programmes/Projects/Iconnect/iconnect_app/android/app/src/debug/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /home/kennedy/Programmes/Projects/Iconnect/iconnect-app/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/kennedy/Programmes/Projects/Iconnect/iconnect-app/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /home/kennedy/Programmes/Projects/Iconnect/iconnect_app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/kennedy/Programmes/Projects/Iconnect/iconnect_app/android/app/src/debug/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/kennedy/Programmes/Projects/Iconnect/iconnect-app/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/kennedy/Programmes/Projects/Iconnect/iconnect-app/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /home/kennedy/Programmes/Projects/Iconnect/iconnect_app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/kennedy/Programmes/Projects/Iconnect/iconnect_app/android/app/src/debug/AndroidManifest.xml
 activity#io.flutter.plugins.urllauncher.WebViewActivity
-ADDED from [:url_launcher_android] /home/kennedy/Programmes/Projects/Iconnect/iconnect-app/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-13:74
+ADDED from [:url_launcher_android] /home/kennedy/Programmes/Projects/Iconnect/iconnect_app/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-13:74
 	android:exported
-		ADDED from [:url_launcher_android] /home/kennedy/Programmes/Projects/Iconnect/iconnect-app/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-37
+		ADDED from [:url_launcher_android] /home/kennedy/Programmes/Projects/Iconnect/iconnect_app/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-37
 	android:theme
-		ADDED from [:url_launcher_android] /home/kennedy/Programmes/Projects/Iconnect/iconnect-app/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-71
+		ADDED from [:url_launcher_android] /home/kennedy/Programmes/Projects/Iconnect/iconnect_app/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-71
 	android:name
-		ADDED from [:url_launcher_android] /home/kennedy/Programmes/Projects/Iconnect/iconnect-app/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-74
+		ADDED from [:url_launcher_android] /home/kennedy/Programmes/Projects/Iconnect/iconnect_app/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-74
 uses-library#androidx.window.extensions
 ADDED from [androidx.window:window:1.0.0-beta04] /home/kennedy/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
 	android:required

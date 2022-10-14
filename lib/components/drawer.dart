@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:iconnect_app/components/getstarted.dart';
+import 'package:iconnect_app/views/home.dart';
 import 'package:iconnect_app/views/pages/blogs.dart';
 import 'package:iconnect_app/views/pages/groups.dart';
+import 'package:iconnect_app/views/pages/ideas.dart';
 import 'package:iconnect_app/views/pages/mentors.dart';
 import 'package:iconnect_app/views/pages/projects.dart';
 
@@ -33,17 +35,20 @@ class _NavigationDrawerState extends State<NavigationDrawer> {
               style: TextStyle(color: Colors.white, fontFamily: 'monospace'),
             ),
             const Divider(),
-            const ListTile(
-              leading: Icon(
-                Icons.home,
-                color: Colors.white,
-              ),
-              title: Text(
-                'Home',
-                style: TextStyle(color: Colors.white, fontFamily: 'monospace'),
-              ),
-              onTap: null,
-            ),
+            ListTile(
+                leading: const Icon(
+                  Icons.home,
+                  color: Colors.white,
+                ),
+                title: const Text(
+                  'Home',
+                  style:
+                      TextStyle(color: Colors.white, fontFamily: 'monospace'),
+                ),
+                onTap: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => const Home()));
+                }),
             ListTile(
               leading: const Icon(
                 Icons.group,
@@ -58,16 +63,19 @@ class _NavigationDrawerState extends State<NavigationDrawer> {
                     MaterialPageRoute(builder: (context) => const Groups()));
               },
             ),
-            const ListTile(
-              leading: Icon(
+            ListTile(
+              leading: const Icon(
                 Icons.join_full_sharp,
                 color: Colors.white,
               ),
-              title: Text(
+              title: const Text(
                 'Teams',
                 style: TextStyle(color: Colors.white, fontFamily: 'monospace'),
               ),
-              onTap: null,
+              onTap: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => const Anime()));
+              },
             ),
             ListTile(
               leading: const Icon(
